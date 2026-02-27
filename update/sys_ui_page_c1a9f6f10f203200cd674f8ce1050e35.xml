@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category/>
+        <client_script/>
+        <description>Simple login page layout for the NeedIt application.</description>
+        <direct>true</direct>
+        <endpoint>false</endpoint>
+        <html><![CDATA[<div class="needit-login-page">
+  <div class="needit-login-card">
+    <h1>NeedIt</h1>
+    <p class="subtitle">Sign in to continue</p>
+
+    <form class="needit-login-form" method="post">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" placeholder="Enter your username" required="true" />
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" placeholder="Enter your password" required="true" />
+
+      <button type="submit">Log in</button>
+    </form>
+
+    <a href="#" class="help-link">Forgot your password?</a>
+  </div>
+</div>
+
+<style>
+  .needit-login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #143f7d, #2564c4);
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .needit-login-card {
+    width: 100%;
+    max-width: 360px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.24);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+  }
+
+  .needit-login-card h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #143f7d;
+    text-align: center;
+  }
+
+  .subtitle {
+    margin: 8px 0 20px;
+    color: #5d6878;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .needit-login-form {
+    display: grid;
+    gap: 8px;
+  }
+
+  .needit-login-form label {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #2c3e55;
+  }
+
+  .needit-login-form input {
+    border: 1px solid #c9d2de;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border-color 120ms ease, box-shadow 120ms ease;
+  }
+
+  .needit-login-form input:focus {
+    border-color: #2564c4;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 100, 196, 0.18);
+  }
+
+  .needit-login-form button {
+    margin-top: 14px;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 12px;
+    color: #ffffff;
+    background: #2564c4;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .needit-login-form button:hover {
+    background: #1e54a3;
+  }
+
+  .help-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 13px;
+    color: #2564c4;
+    text-decoration: none;
+  }
+
+  .help-link:hover {
+    text-decoration: underline;
+  }
+</style>]]></html>
+        <name>needit_login</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 00:00:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c1a9f6f10f203200cd674f8ce1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>needit_login</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_page_c1a9f6f10f203200cd674f8ce1050e35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 00:00:00</sys_updated_on>
+    </sys_ui_page>
+</record_update>
